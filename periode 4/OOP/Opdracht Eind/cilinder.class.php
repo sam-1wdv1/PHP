@@ -7,14 +7,12 @@ class cilinder extends figuur {
     }
     
     public function getH() {
-        
+        return $this->x;
     }
 
-    $this->x = $Ih;
-    $this->y = $Ir;
 
-    public function berekenOppervlakte {
-        $opp = (2 * pi * $this->y * $this->y) + (2 * pi * $this->y * $this->x)
+    public function berekenOppervlakte() {
+        $opp = (2 * self::$PI * $this->y * $this->y) + (2 * pi * $this->y * $this->x);
         $Ih = 10;
         $Ir = 3;
         return $opp;

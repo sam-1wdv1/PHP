@@ -6,7 +6,7 @@ class vierkant extends figuur {
         parent::__construct($Ix);
     }
     
-    public function berekenOppervlakte {
+    public function berekenOppervlakte() {
         $opp = ($this->x * $this->x);
         return $opp;
     }
